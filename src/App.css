@@ -1,0 +1,134 @@
+.App {
+  text-align: center;
+}
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  background-color: 080800;
+}
+
+.main{
+  width: 1000px;
+  height: 500px;
+  background-color: white;
+  padding: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.num{
+  width: 80px;
+  height: 80px;
+  background-color: black;
+  border-radius: 50%;
+  font-size: 30px;
+  border-color: darkgrey;
+  font-family:Arial, Helvetica, sans-serif;
+  padding: 5%;
+  color: white;
+}
+
+.zero{
+  width: 160px;
+  height: 80px;
+  background-color: black;
+  border-radius: 20%;
+  font-size: 30px;
+  font-family:Arial, Helvetica, sans-serif;
+  border-color: darkgrey;
+  color: white;
+}
+
+.reset{
+  width: 240px;
+  height: 80px;
+  background-color: #C4C8CA;
+  border-radius: 5%;
+  font-size: 30px;
+  font-family:Arial, Helvetica, sans-serif;
+  border-color: #C4C8CA;
+}
+
+.input{
+  height: 50px;
+  width: 310px;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 50px;
+  color: white;
+  background-color: black;
+}
+
+.calculator{
+  background-color: black;
+  padding: 20px;
+  height: 480px;
+}
+
+.morefunction{
+  background-color: black;
+  padding: 20px;
+  border-radius: 5%;
+}
+
+.operation{
+  width: 80px;
+  height: 80px;
+  background-color: #DE9F18;
+  border-radius: 20%;
+  font-size: 30px;
+  font-family:Arial, Helvetica, sans-serif;
+  border-color: #DE9F18;
+}
+
+.clickmore{
+  font-size: medium;
+  font-weight: bold;
+  color: white;
+  width: 320px;
+  background-color: black;
+  border-color: black;
+  justify-content: center;
+  padding-top: 10px;
+}
+
+.moreEqution{
+  width: 80px;
+  height: 80px;
+  background-color: darkgrey;
+  font-size: 20px;
+  border-color: darkgrey;
+  font-family:Arial, Helvetica, sans-serif;
+  padding: 5%;
+  color: black;
+  border-radius: 5%;
+}
+
+.spacerow{
+  height: 60px;
+}
+
+.buttonRow2{
+  padding-right: 20px;
+}
